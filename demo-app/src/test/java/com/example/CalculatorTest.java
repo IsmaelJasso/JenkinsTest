@@ -29,6 +29,11 @@ class CalculatorTest {
     void testSubtract() {
         assertThat(calc.subtract(10, 4)).isEqualTo(6);
     }
+    @Test
+    @DisplayName("Multiply returns correct result")
+    void testMultiply() {
+        assertThat(calc.multiply(10, 4)).isEqualTo(40);
+    }
 
     @ParameterizedTest(name = "{0} * {1} = {2}")
     @CsvSource({
@@ -40,6 +45,8 @@ class CalculatorTest {
     void testMultiply(double a, double b, double expected) {
         assertThat(calc.multiply(a, b)).isEqualTo(expected);
     }
+    
+    
 
     @Test
     @DisplayName("Divide by zero throws ArithmeticException")
