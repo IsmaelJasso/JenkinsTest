@@ -3,7 +3,7 @@ package com.example;
 import java.util.Scanner;
 
 /**
- * Added some comments so that I can push the differences 
+ * Added some comments so that I can push the differences a
  */
 
 public class App {
