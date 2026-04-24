@@ -2,6 +2,10 @@ package com.example;
 
 import java.util.Scanner;
 
+/**
+ * Added some comments so that I can push the differences 
+ */
+
 public class App {
 
     public static void main(String[] args) {
